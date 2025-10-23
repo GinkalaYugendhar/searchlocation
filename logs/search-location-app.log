@@ -26,3 +26,26 @@
 2025-10-23T15:09:11.231+05:30  INFO 40348 --- [searchlocation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-10-23T15:09:11.242+05:30  INFO 40348 --- [searchlocation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-10-23T15:09:11.252+05:30  INFO 40348 --- [searchlocation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-23T16:26:28.967+05:30  INFO 45465 --- [searchlocation] [restartedMain] c.e.s.SearchlocationApplication          : Starting SearchlocationApplication using Java 24.0.2 with PID 45465 (/Users/ginkalayugendhar/Documents/HyperGrid Technology Solutions/PROJECTS/searchlocation/target/classes started by ginkalayugendhar in /Users/ginkalayugendhar/Documents/HyperGrid Technology Solutions/PROJECTS/searchlocation)
+2025-10-23T16:26:28.969+05:30  INFO 45465 --- [searchlocation] [restartedMain] c.e.s.SearchlocationApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-10-23T16:26:28.992+05:30  INFO 45465 --- [searchlocation] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-23T16:26:28.992+05:30  INFO 45465 --- [searchlocation] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-23T16:26:29.340+05:30  INFO 45465 --- [searchlocation] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-23T16:26:29.366+05:30  INFO 45465 --- [searchlocation] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2025-10-23T16:26:29.624+05:30  INFO 45465 --- [searchlocation] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-23T16:26:29.633+05:30  INFO 45465 --- [searchlocation] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-23T16:26:29.633+05:30  INFO 45465 --- [searchlocation] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-23T16:26:29.652+05:30  INFO 45465 --- [searchlocation] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-23T16:26:29.652+05:30  INFO 45465 --- [searchlocation] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 660 ms
+2025-10-23T16:26:29.934+05:30  INFO 45465 --- [searchlocation] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-23T16:26:29.948+05:30  INFO 45465 --- [searchlocation] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-23T16:26:30.128+05:30  INFO 45465 --- [searchlocation] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2491f324
+2025-10-23T16:26:30.129+05:30  INFO 45465 --- [searchlocation] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-23T16:26:30.628+05:30  INFO 45465 --- [searchlocation] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-23T16:26:30.775+05:30  WARN 45465 --- [searchlocation] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-23T16:26:30.932+05:30  INFO 45465 --- [searchlocation] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-23T16:26:30.949+05:30  INFO 45465 --- [searchlocation] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-23T16:26:30.954+05:30  INFO 45465 --- [searchlocation] [restartedMain] c.e.s.SearchlocationApplication          : Started SearchlocationApplication in 2.338 seconds (process running for 2.793)
+2025-10-23T16:26:34.648+05:30  INFO 45465 --- [searchlocation] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-23T16:26:34.648+05:30  INFO 45465 --- [searchlocation] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-23T16:26:34.653+05:30  INFO 45465 --- [searchlocation] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
