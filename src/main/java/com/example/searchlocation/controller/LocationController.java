@@ -28,7 +28,6 @@ public class LocationController {
             return ResponseEntity.badRequest().body(Collections.emptyList());
         }
         List<Locations> results = locationService.searchByLocation(keyword);
-        System.out.println(results);
         return ResponseEntity.ok(results);
     }
 
